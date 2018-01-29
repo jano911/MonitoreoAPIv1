@@ -12,7 +12,7 @@ namespace MonitoreoAPIv1.Models
     public class Role
     {
         [DataMember]
-        public int? IdRol { get; set; }
+        public int IdRol { get; set; }
 
         [DataMember]
         public String Nombre { get; set; }
@@ -21,7 +21,7 @@ namespace MonitoreoAPIv1.Models
         public String Descripcion { get; set; }
 
         [DataMember]
-        public bool? Estado { get; set; }
+        public bool Estado { get; set; }
 
         [DataMember]
         public UsuarioM Usuario { get; set; }

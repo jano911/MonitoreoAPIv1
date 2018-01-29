@@ -17,13 +17,13 @@ namespace MonitoreoAPIv1.Models
         /// Property IdUsuario
         /// </summary>
         [DataMember]
-        public int? IdUsuario { get; set; }
+        public int IdUsuario { get; set; }
 
         /// <summary>
         /// Property IdRol
         /// </summary>
         [DataMember]
-        public int? IdRol { get; set; }
+        public int IdRol { get; set; }
 
         /// <summary>
         /// Property Nombre
@@ -53,7 +53,7 @@ namespace MonitoreoAPIv1.Models
         /// Property Estado
         /// </summary>
         [DataMember]
-        public bool? Estado { get; set; }
+        public bool Estado { get; set; }
 
 
         [DataMember]
@@ -78,7 +78,7 @@ namespace MonitoreoAPIv1.Models
 
 
         [DataMember]
-        public int? Op { get; set; }
+        public int Op { get; set; }
 
 
         [DataMember]
@@ -90,7 +90,7 @@ namespace MonitoreoAPIv1.Models
 
 
         [DataMember]
-        public int? Bnd { get; set; }
+        public int Bnd { get; set; }
 
         [DataMember]
         public String Msg { get; set; }

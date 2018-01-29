@@ -14,8 +14,7 @@ namespace MonitoreoAPIv1.Controllers.Helpers
     public class DataBaseFunction
     {
         private List<SqlParameter> parametros;
-        private string lineaConexion = "";
-        //private string lineaConexion = "Data Source=172.16.126.51;Initial Catalog=Newsoftv;User ID=DeSoftv;Password=*Softv2017";
+        private string lineaConexion = "Data Source=Jano-PC;Initial Catalog=BifrostSoftv;User ID=sa;Password=cinnamon911";
         //private string lineaConexion = "Data Source=JANO-PC\\SQL2014;Initial Catalog=Newsoftv;User ID=sa;Password=06011975";
         private SqlConnection conexion;
         private SqlCommand comando;
